@@ -1,0 +1,19 @@
+package Lec2;
+
+public class Swap_2_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 5;
+		int b = 7;
+//		int temp = a;
+//		a = b;
+//		b = temp;
+
+		b = a + b;
+		a = b - a;
+		b = b - a;
+
+	}
+
+}
